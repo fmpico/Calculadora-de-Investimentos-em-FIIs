@@ -3,7 +3,7 @@ Planilha Excel para simular aportes, patrimônio e dividendos em FIIs, com proje
 
 # Simulador de Investimentos em FIIs
 
-Planilha em Excel para simular a evolução de investimentos em fundos imobiliários (FIIs), desde os aportes mensais até o patrimônio acumulado e os dividendos projetados.
+Planilha em Excel para simular a evolução de investimentos em fundos imobiliários (FIIs), à partir dos aportes mensais calculados sobre um % do seu salário, o tempo de investimento e o somatório do dividend yield reinvestido com o rendimento mensal da carteira, mostrando o patrimônio acumulado, o total aportado, o ganho acumulado ao longo do tempo e a renda mensal projetada após o período de aportes.
 
 ## Funcionalidades
 
@@ -11,7 +11,7 @@ Planilha em Excel para simular a evolução de investimentos em fundos imobiliá
 - Cálculo do patrimônio futuro com a função `VF`.
 - Distribuição do aporte entre FIIs conforme o perfil do investidor.
 - Uso de `PROCV` e de uma tabela de apoio para relacionar perfis e alocações.
-- Intervalos nomeados para facilitar a leitura e a manutenção das fórmulas.
+- Intervalos nomeados para facilitar a leitura e a manutenção das fórmulas(aporte_mensal, dy_mensal, ganho_acumulado, patrimonio_acumulado, renda_mensal, rendimento_carteira, salario, tempo_de_aportes e total_aporte).
 
 ## Como usar
 
@@ -39,5 +39,12 @@ A renda calculada é uma estimativa bruta inicial, não uma garantia de rendimen
 ## Contribuições
 
 Sugestões e melhorias são bem-vindas. Abra uma *issue* para relatar um problema ou propor uma mudança.
+
+## O que mudou em relação a ferramenta do Expert
+
+Substitui a sugestão de aporte de 20 e 30% por uma célula que o usuário escolhe o seu % de aporte à partir do seu salário.
+Adicionei o total de aportes ao longo tempo e o ganho acumulado (calculado pelo somatório do dividend yield e rendimento mensal da carteira).
+Adicionei uma sheet contendo um resumo sobre investimentos em FIIs e outra sobre um resumo de usabilidade da calculadora.
+Adicionei um gráfico de colunas mostrando a evolução do patrimônio acumulado e da renda mensal ao longo do tempo.
 
 
